@@ -32,7 +32,7 @@ logger = logging.getLogger(__name__)
 app = FastAPI(
     title="Log App API",
     description="CloudWatchログ・アラートのデモAPI",
-    version="1.0.0"
+    version="1.0.1"
 )
 
 app.add_middleware(
